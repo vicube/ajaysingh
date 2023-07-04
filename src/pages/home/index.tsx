@@ -5,7 +5,8 @@ import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/libre-baskerville"; // Defaults to weight 400
 import "./styles.scss";
 
-import { BsEnvelopeFill, BsYoutube, BsFacebook } from "react-icons/bs";
+import { BsEnvelopeFill, BsFacebook } from "react-icons/bs";
+import { RiInstagramFill } from "react-icons/ri";
 
 const Home: FC = () => {
   return (
@@ -32,8 +33,11 @@ const Home: FC = () => {
             >
               <BsFacebook />
             </a>
-            <a href="youtube.com" className="contacts__icon">
-              <BsYoutube />
+            <a
+              href="https://www.instagram.com/ajaysinghpanipat/"
+              className="contacts__icon"
+            >
+              <RiInstagramFill />
             </a>
           </div>
           <p className="profile__bio">
